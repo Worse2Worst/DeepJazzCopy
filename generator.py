@@ -181,7 +181,7 @@ def main(args):
         N_epochs = 64 # default
 
     # i/o settings
-    data_fn = 'midi/' + 'original2.mid' # 'And Then I Knew' by Pat Metheny 
+    data_fn = 'midi/' + 'original.mid' # 'And Then I Knew' by Pat Metheny 
     out_fn = 'midi/' 'deepjazz_...' + str(N_epochs)
     if (N_epochs == 1): out_fn += '_epoch.midi'
     else:               out_fn += '_epochs.midi'
